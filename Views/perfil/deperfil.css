@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 35px 30px 44px;
+  border-radius: 24px;
+  background: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 30vw;
+  margin-top: 50px !important;
+}
+
+.profile {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group label [type="favotiro"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  color: #555;
+  background-color: #f4f4f4;
+}
+
+.form-group input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  color: #555;
+  background-color: #f4f4f4;
+}
+
+.form-group input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.button-group input[type="button"] {
+  background-color: #ff652f;
+  color: black;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group input[type="button"]:hover {
+  background-color: #2c3e50;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-form {
+  -webkit-transition: -webkit-filter .15s linear;
+  filter: brightness(100%);
+  object-fit: cover;
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+}
+
+.img-container:hover .img-form {
+  filter: brightness(50%);
+}
+
+.filePut {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.img-container:hover .filePut {
+  visibility: visible;
+  opacity: 1;
+}

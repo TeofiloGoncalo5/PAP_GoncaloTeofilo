@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.card {
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    padding: 20px;
+    border-radius: 27px;
+    background: #FFF;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.comment-input{
+    width: 50%;
+}
+
+.comment-icon{
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.delete-icon{
+    margin-right: 700px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.delete-icon:hover {
+    transform: scale(1.1);
+  }
+
+.card-design{
+     margin-right: 700px;
+}
+
+.create-post{
+    padding: 20px;
+    border-radius: 27px;
+    background: #FFF;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.comment-icon:hover {
+    transform: scale(1.1);
+  }
+
+.comment-post{
+    margin-left: 10px;
+    height: 38px;
+}
+
+.card-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+
+/* Style for the post caption */
+.post p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Style for the comments */
+.comments {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.comment {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Style for the comment input field and button */
+#commentInput {
+    margin-top: 10px;
+}
+
+#commentText {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#submitCommentButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* Style for the post creation menu */
+#postCreationMenu {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+#mediaInput,
+#captionInput {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#submitPostButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
